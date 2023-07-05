@@ -11,4 +11,4 @@ services:
   tty: true
   stdin_open: true
   volumes:
-   - ./html:/home/index
+   - ./source:/home/source
