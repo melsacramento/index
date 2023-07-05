@@ -6,3 +6,10 @@ services:
   stdin_open: true
   volumes:
    - ./html:/home/index
+
+  app2:
+  image: alpine
+  tty: true
+  stdin_open: true
+  volumes:
+   - ./html:/home/index
